@@ -1,0 +1,22 @@
+
+a{
+    color: white;
+   size-adjust: 500px;
+
+}
+h1,h2{
+text-align:center;  
+color: #21d72b;   
+    }
+    h3{
+        text-align:bottom;  
+        color: #21d72b;   
+            }
+body{
+    background-image: url(Recursos/feidbanner2.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: #86cb24;
+}
+    
+
