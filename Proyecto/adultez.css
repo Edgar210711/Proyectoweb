@@ -32,10 +32,10 @@ body {
 }
 
 .box {
-    width: 45%; /* Ancho de cada div */
+    width: 60%; /* Ancho de cada div */
     padding: 20px;
     background-color: #f0f0f0; /* Color de fondo */
-    border: 1px solid #999; /* Borde para los divs internos */
+    border: 0px solid #999; /* Borde para los divs internos */
     text-align: center; /* Alineación de texto al centro */
 }
 
@@ -43,7 +43,7 @@ body {
 
 
     background-color: aliceblue;
-    width: 20%;
+    width:0%;
     
 
 
@@ -51,7 +51,7 @@ body {
 
 #imagen {   
     width: 40%;
-    margin-left: auto;
+    margin-left: -60%;
 
 }
 
@@ -60,8 +60,8 @@ body {
     border: 2px solid rgb(252, 244, 243);
     display: inline-block;
     width: 100%;
-    margin-left: auto;
-    vertical-align: top;
+    margin-left: 100%;
+    vertical-align: 50%;
     align-content: space-between;
 
 
