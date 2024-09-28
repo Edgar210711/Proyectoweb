@@ -4,32 +4,20 @@ a {
 
 }
 
-h1{
-    text-align: center;
-    color: #012a04 ;
-    text-shadow: rgb(236, 236, 236) 0.5px 1px;
-    font-size: 45px;
-}
-
-h2 {
-    text-align: center;
-    color: #e9eaaa;
-    text-shadow: rgb(236, 236, 236) 0.5px 1px;
-    font-size: 45px;
-}
 
 h3 {
     text-align: center;
-    color: #ede601;
-    text-shadow: rgb(236, 236, 236) 0.5px 1px;
+    color: #014017;
+    text-shadow: rgb(229, 226, 226) 2px 2px 2px;
     font-size: 50px;
 }
 
 body {
     background-image: url(Recursos/feidwallpaper.png);
-    background-size: center;
+    background-size: 100%;
     background-color: #86cb24;
     background-repeat: no-repeat;
+    
 }
 
 .container {
@@ -37,46 +25,57 @@ body {
     /* Usamos flexbox para alinear horizontalmente */
     justify-content: space-between;
     /* Espacio entre los divs */
-    padding: 20px;
+    padding: -1px;
     /* Espaciado interno */
 }
 
 .box {
-    width: 30%;
+    width: 25%;
     /* Ancho de cada div */
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #b4cf50;
     /* Color de fondo */
     border: 0px solid #999;
     /* Borde para los divs internos */
     text-align: center;
     /* Alineación de texto al centro */
 }
+.part {
+    width: 25%; /* Ancho de cada div */
+    padding: 20px;
+    background-color: #b3cf50; /* Color de fondo */
+    border: 0px solid #999; /* Borde para los divs internos */
+    text-align: left; /* Alineación de texto al centro */
+    margin: 0%;
+}
 
 #texto {
 
 
     background-color: aliceblue;
-    width: 20%;
+    width: 00%;
 
 
 
 }
 
 #imagen {
-    width: 40%;
-    margin-left: auto;
+    width: 60%;
+    margin-left: -10%;
 
 }
 
 #Parrafos {
     background-color: aliceblue;
-    border: 2px solid rgb(252, 244, 243);
-    display: inline-block;
-    width: 100%;
-    margin-left:200%;
-    vertical-align: top;
+    
+    
+    vertical-align: 50%;
     align-content: space-between;
 
 
+}
+.links{
+    font-size: 30px;
+    text-align: left;
+    color: #21d72b;
 }

@@ -7,16 +7,34 @@ a{
 h1,h2{
 text-align:center;  
 color: #21d72b;   
+text-shadow:#ffffff 2px 2px 5px;
+font-size: 40px;
+
     }
-h3{
-        text-align:bottom;  
-        color: #21d72b;   
-            }
+
 body{
-    background-image: url(Recursos/feidbanner2.jpg);
-    background-size:100%;
-    background-repeat: no-repeat;
+    background-image: url(Recursos/Feid-album-review.png);
+    
+    background-position-x: 50%;
+    
     background-color: #86cb24;
 }
     
+
+
+.box {
+    
+    width: 30%;
+    font-size: 20px;
+    padding:5px;
+    background-color: #21d72ac5;
+    color: azure;
+    
+}
+.notes{
+    font-size: 30px;
+    text-align: left;
+    color: #21d72b;
+}
+
 
