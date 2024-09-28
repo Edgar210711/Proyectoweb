@@ -61,9 +61,14 @@ body {
 #imagen {
     width: 40%;
     margin-left: -40px;
+    transition: all 300ms;
+    position: relative;
 
 }
+#imagen img:hover {
+    transform: scale(1.15);
 
+}
 #Parrafos {
     background-color: aliceblue;
     
@@ -76,5 +81,5 @@ body {
 .links{
     font-size: 30px;
     text-align: left;
-    color: #21d72b;
+    text-shadow: #21d72b;
 }
