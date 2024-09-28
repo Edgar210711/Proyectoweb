@@ -29,9 +29,9 @@ body {
 }
 
 .box {
-    width: 25%;
+    width: 30%;
     /* Ancho de cada div */
-    padding: 20px;
+    padding: 15px;
     background-color: #3ba530;
     /* Color de fondo */
     border: 0px solid #999;
@@ -40,8 +40,8 @@ body {
     /* Alineación de texto al centro */
 }
 .part {
-    width: 25%; /* Ancho de cada div */
-    padding: 20px;
+    width: 30%; /* Ancho de cada div */
+    padding: 18px;
     background-color: #3ba530; /* Color de fondo */
     border: 0px solid #999; /* Borde para los divs internos */
     text-align: left; /* Alineación de texto al centro */
@@ -52,7 +52,7 @@ body {
 
 
     background-color: aliceblue;
-    width: 00%;
+    width: 10%;
 
 
 
@@ -68,7 +68,7 @@ body {
     background-color: aliceblue;
     
     
-    vertical-align: 50%;
+    vertical-align: 40%;
     align-content: space-between;
 
 
@@ -78,3 +78,4 @@ body {
     text-align: left;
     color: #21d72b;
 }
+.part{font-size: 16px;}

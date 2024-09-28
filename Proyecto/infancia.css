@@ -40,33 +40,20 @@ body {
     /* Alineación de texto al centro */
 }
 .part {
-    width: 25%; /* Ancho de cada div */
-    padding: 20px;
+    width: 20%; /* Ancho de cada div */
+    padding: 25px;
     background-color: #00af43; /* Color de fondo */
     border: 0px solid #999; /* Borde para los divs internos */
     text-align: left; /* Alineación de texto al centro */
     margin: 0%;
 }
 
-#texto {
 
+#imagen{
+    width: 50%;
+    margin-left: -30px;
+    
 
-    background-color: aliceblue;
-    width: 00%;
-
-
-
-}
-
-#imagen {
-    width: 40%;
-    margin-left: -40px;
-    transition: all 300ms;
-    position: relative;
-
-}
-#imagen img:hover {
-    transform: scale(1.15);
 
 }
 #Parrafos {
